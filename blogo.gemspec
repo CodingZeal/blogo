@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
   s.files = Dir["{app,config,db,lib,vendor}/**/*", "MIT-LICENSE", "Rakefile", "README.markdown"]
   s.test_files = Dir["rspec/**/*"]
 
-  s.add_dependency "rails"      , "~> 4.0"
+  s.add_dependency "rails"      , "~> 5.0"
   s.add_dependency "jquery-rails"
   s.add_dependency 'coffee-rails'
   s.add_dependency "bcrypt", "~> 3.0"
