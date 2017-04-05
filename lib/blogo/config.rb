@@ -33,7 +33,7 @@ module Blogo
       @google_analytics_id = nil
       @use_ckeditor        = true
       @keywords            = %w(blog)
-      @markup_lang         = :html
+      @markup_lang         = :markdown
       @show_rss_icon       = true
     end
 
